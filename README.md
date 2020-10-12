@@ -71,18 +71,21 @@ $ yarn
 **Creating Docker environment with postgres DB**
 
 ```bash
+# Create docker enviroment
 $ docker-compose up
 ```
 
 **Run Knex Migrates**
 
 ```bash
+# Create tables
 $ yarn knex:migrate
 ```
 
 **Run the API**
 
 ```bash
+# Run the API
 $ yarn dev
 ```
 
@@ -95,15 +98,12 @@ Go to your browser and access http://localhost:3000/doc
 **To run tests**
 
 ```bash
+# Drop tables
 $ yarn knex:migrate:rollback
 
+# Create tables
 $ yarn knex:migrate
-```
 
-Before do that, please delete all rows of categories and transactions tables.
-
-```bash
-# Run the API
 $ yarn test
 ```
 
