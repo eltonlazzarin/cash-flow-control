@@ -66,6 +66,16 @@ Technologies that I used to develop this api
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
+## Creating Docker environment with postgres DB (docker-composer.yaml)
+
+```bash
+$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
+
+$ cd cash-flow-control
+
+$ docker-compose up
+```
+
 **Clone the project and access the folder**
 
 ```bash
