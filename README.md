@@ -65,6 +65,8 @@ Technologies that I used to develop this api
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli)
+- [Docker-Compose CLI](https://docs.docker.com/compose/reference/overview)
 
 **Creating Docker environment with postgres DB**
 
