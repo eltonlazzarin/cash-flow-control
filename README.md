@@ -68,8 +68,6 @@ Technologies that I used to develop this api
 $ git clone https://github.com/eltonlazzarin/cash-flow-control.git
 
 $ cd cash-flow-control
-
-$ cd server
 ```
 
 **Follow the steps below**
@@ -79,7 +77,7 @@ $ cd server
 $ yarn
 
 # Run the API
-$ yarn start
+$ yarn dev
 ```
 
 ## 🤔 How to contribute backend
@@ -91,8 +89,6 @@ $ yarn start
 $ git clone https://github.com/eltonlazzarin/cash-flow-control.git
 
 $ cd cash-flow-control
-
-$ cd server
 
 # Create a branch with your feature
 $ git checkout -b your-feature
