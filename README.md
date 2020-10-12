@@ -94,7 +94,7 @@ Go to your browser and access http://localhost:3000/doc
 
 **To run tests**
 
-Before do that, please delete all rows of tables categories and transactions.
+Before do that, please delete all rows of categories and transactions tables.
 
 ```bash
 # Run the API
