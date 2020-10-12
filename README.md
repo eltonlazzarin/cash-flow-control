@@ -85,10 +85,10 @@ $ yarn knex:migrate
 $ yarn dev
 ```
 
-**To acess API**
+**To access the API**
 Go to your browser and acess http://localhost:3333/cashiers
 
-**To view API documentation**
+**To view the API documentation**
 Go to your browser and access http://localhost:3000/doc
 
 **To run tests**
