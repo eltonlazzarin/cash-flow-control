@@ -65,9 +65,6 @@ $ cd cash-flow-control
 ```bash
 # Install the dependencies
 $ yarn
-
-# Run the API
-$ yarn dev
 ```
 
 **Creating Docker environment with postgres DB**
@@ -80,6 +77,12 @@ $ docker-compose up
 
 ```bash
 $ yarn knex:migrate
+```
+
+**Run the API**
+
+```bash
+$ yarn dev
 ```
 
 **To run project tests**
