@@ -73,7 +73,7 @@ $ yarn
 $ docker-compose up
 ```
 
-**Run Knex Migrate**
+**Run Knex Migrates**
 
 ```bash
 $ yarn knex:migrate
