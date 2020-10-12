@@ -82,7 +82,7 @@ $ docker-compose up
 $ yarn knex:migrate
 ```
 
-## To run project test
+**To run project tests**
 
 Before do that, please delete all rows of tables categories and transactions.
 
