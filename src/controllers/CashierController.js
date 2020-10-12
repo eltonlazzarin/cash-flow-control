@@ -9,7 +9,7 @@ class CashierController {
         id: item.id,
         date: item.date,
         type: item.type,
-        value: item.value,
+        value: parseFloat(item.value),
         description: item.description,
         category: {
           id: item.categories_id,
