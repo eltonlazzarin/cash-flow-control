@@ -1,2 +1,113 @@
-# cash-flow-control
-Cash Flow Control backend built with Node.js
+<h3 align="center">
+  Cash Flow Control backend built with Node.js
+</h3>
+
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/eltonlazzarin/cash-flow-control">
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eltonlazzarin/cash-flow-control">
+
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/cash-flow-control">
+
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/cash-flow-control">
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/cash-flow-control">
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-backend-technologies">Backend Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-backend-getting-started">Backend Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute-backend">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-backend-license">Backend License</a>
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-frontend-technologies">Frontend Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-frontend-getting-started">Frontend Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute-frontend">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-frontend-license">Frontend License</a>
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-mobile-technologies">Mobile Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-mobile-getting-started">Mobile Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute-mobile">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-mobile-license">Mobile License</a>
+</p>
+
+## 👨🏻‍💻 About the project
+
+<p>
+This API is a product that was created in order to help in the cash management of a store, where it is possible to create cash movements, with transactions of accounts payable and receivable. At the end of the day, the store cashier will know the total money received and the amount that came out of the cashier to maintain the life of a store.</p>
+
+## 🚀 Backend Technologies
+
+Technologies that I used to develop this api
+
+- [Node.js](https://nodejs.org/en)
+- [TypeScript](https://www.typescriptlang.org)
+- [Cors](https://github.com/expressjs/cors)
+- [Express](https://github.com/expressjs/express)
+- [Knex](https://github.com/knex/knex)
+- [Sqlite3](https://github.com/sqlite/sqlite)
+- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
+
+## 💻 Backend getting started
+
+### Requirements
+
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
+
+$ cd cash-flow-control
+
+$ cd server
+```
+
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ yarn
+
+# Run the API
+$ yarn start
+```
+
+## 🤔 How to contribute backend
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
+
+$ cd cash-flow-control
+
+$ cd server
+
+# Create a branch with your feature
+$ git checkout -b your-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: Your new feature'
+
+# Send the code to your remote branch
+$ git push origin your-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 Backend License
+
+## This project is under the MIT license. See the [LICENSE](https://github.com/eltonlazzarin/cash-flow-control/blob/master/LICENSE) for more information.
+
+Made with ♥ by Elton Lazzarin :wave: [Get in touch!](https://www.linkedin.com/in/eltonlazzarin/)
