@@ -48,11 +48,15 @@ This API is a product that was created in order to help in the cash management o
 Technologies that I used to develop this api
 
 - [Node.js](https://nodejs.org/en)
-- [TypeScript](https://www.typescriptlang.org)
 - [Cors](https://github.com/expressjs/cors)
 - [Express](https://github.com/expressjs/express)
+- [Swagger-Autogen](https://www.npmjs.com/package/swagger-autogen)
+- [Swagger-UI-Express](https://www.npmjs.com/package/swagger-ui-express)
 - [Knex](https://github.com/knex/knex)
-- [Sqlite3](https://github.com/sqlite/sqlite)
+- [UUID](https://github.com/uuidjs/uuid)
+- [Jest](https://jestjs.io/docs/en/getting-started)
+- [Supertest](https://www.npmjs.com/package/supertest)
+- [pg](https://node-postgres.com)
 - [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
 ## 💻 Backend getting started
@@ -78,6 +82,15 @@ $ yarn
 
 # Run the API
 $ yarn dev
+```
+
+## To run project test
+
+Before do that, please delete all rows of tables categories and transactions.
+
+```bash
+# Run the API
+$ yarn test
 ```
 
 ## 🤔 How to contribute backend
