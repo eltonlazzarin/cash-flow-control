@@ -20,7 +20,7 @@ class TransactionController {
           id,
           date: currentDay,
           type: transactionsItem.type,
-          value: transactionsItem.value,
+          value: parseFloat(transactionsItem.value),
           description: transactionsItem.description,
           categories_id: id,
         };
@@ -59,7 +59,7 @@ class TransactionController {
       id: item.id,
       date: item.date,
       type: item.type,
-      value: item.value,
+      value: parseFloat(item.value),
       description: item.description,
       category: {
         id: item.categories_id,
@@ -79,7 +79,7 @@ class TransactionController {
       id: item.id,
       date: item.date,
       type: item.type,
-      value: item.value,
+      value: parseFloat(item.value),
       description: item.description,
       category: {
         id: item.categories_id,
