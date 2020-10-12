@@ -94,6 +94,12 @@ Go to your browser and access http://localhost:3000/doc
 
 **To run tests**
 
+```bash
+$ yarn knex:migrate:rollback
+
+$ knex:migrate
+```
+
 Before do that, please delete all rows of categories and transactions tables.
 
 ```bash
