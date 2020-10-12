@@ -62,6 +62,16 @@ $ cd cash-flow-control
 $ docker-compose up
 ```
 
+**Run Knex Migrate**
+
+```bash
+$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
+
+$ cd cash-flow-control
+
+$ yarn knex:migrate
+```
+
 **Clone the project and access the folder**
 
 ```bash
