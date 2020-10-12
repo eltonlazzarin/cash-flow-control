@@ -73,20 +73,12 @@ $ yarn dev
 **Creating Docker environment with postgres DB**
 
 ```bash
-$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
-
-$ cd cash-flow-control
-
 $ docker-compose up
 ```
 
 **Run Knex Migrate**
 
 ```bash
-$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
-
-$ cd cash-flow-control
-
 $ yarn knex:migrate
 ```
 
