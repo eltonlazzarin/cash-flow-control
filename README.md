@@ -91,6 +91,12 @@ Before do that, please delete all rows of tables categories and transactions.
 $ yarn test
 ```
 
+**To acess API**
+Go to your browser and acess http://localhost:3333/cashiers
+
+**To view API documentation**
+Go to your browser and access http://localhost:3000/doc
+
 ## 🤔 How to contribute backend
 
 **Follow the steps below**
