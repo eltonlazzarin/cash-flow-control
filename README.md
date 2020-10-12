@@ -52,6 +52,24 @@ Technologies that I used to develop this api
 - [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli)
 - [Docker-Compose CLI](https://docs.docker.com/compose/reference/overview)
 
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
+
+$ cd cash-flow-control
+```
+
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ yarn
+
+# Run the API
+$ yarn dev
+```
+
 **Creating Docker environment with postgres DB**
 
 ```bash
@@ -70,24 +88,6 @@ $ git clone https://github.com/eltonlazzarin/cash-flow-control.git
 $ cd cash-flow-control
 
 $ yarn knex:migrate
-```
-
-**Clone the project and access the folder**
-
-```bash
-$ git clone https://github.com/eltonlazzarin/cash-flow-control.git
-
-$ cd cash-flow-control
-```
-
-**Follow the steps below**
-
-```bash
-# Install the dependencies
-$ yarn
-
-# Run the API
-$ yarn dev
 ```
 
 ## To run project test
