@@ -1,12 +1,8 @@
 const knex = require('knex');
+const configuration = require('../../knexfile');
 
-const connection = knex({
-  client: 'pg',
-  connection: {
-    database: 'vcaixa_db',
-    user: 'postgres',
-    password: 'docker',
-  },
-});
+const config = process.env.NODE_ENV === 'test' ? configuration.development : configuration.development;
+
+const connection = knex(config);
 
 module.exports = connection;
