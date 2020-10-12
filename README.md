@@ -41,6 +41,7 @@ Technologies that I used to develop this api
 - [Jest](https://jestjs.io/docs/en/getting-started)
 - [Supertest](https://www.npmjs.com/package/supertest)
 - [pg](https://node-postgres.com)
+- [ESLint](https://eslint.org/docs/user-guide/getting-started)
 - [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
 ## 💻 Backend getting started
