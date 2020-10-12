@@ -85,7 +85,7 @@ $ yarn knex:migrate
 $ yarn dev
 ```
 
-**To run project tests**
+**To run tests**
 
 Before do that, please delete all rows of tables categories and transactions.
 
