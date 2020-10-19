@@ -18,7 +18,7 @@ describe("Create transaction", () => {
         {
           type: "income",
           value: 2230.83,
-          description: "SCustomer payment",
+          description: "Customer payment",
           category: {
             name: "Sales"
           }
